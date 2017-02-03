@@ -1,0 +1,26 @@
+{
+    "name": "Traffic allowed from all IP's to multiple ports (list variant)",
+    "filters": [
+        {
+            "matchtype": "regex",
+            "filter": {
+                "sourceRanges": "0.0.0.0/0",
+                "allowed": [
+                    {
+                        "IPProtocol": "tcp|udp"
+                    }
+                ]
+            }
+        },
+        {
+            "matchtype": "count",
+            "filter": {
+                "allowed": [
+                    {
+                        "ports": "gt 1"
+                    }
+                ]
+            }
+        }
+    ]
+}

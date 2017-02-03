@@ -1,0 +1,12 @@
+{
+    "name": "World writable default object permissions",
+    "filters": [
+        {
+            "matchtype": "regex",
+            "filter": {
+                "entity": "allUsers",
+                "role": "OWNER|EDITOR"
+            }
+        }
+    ]
+}

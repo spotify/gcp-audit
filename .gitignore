@@ -1,0 +1,7 @@
+*.pyc
+venv/
+test_configs/*
+results.json
+dist
+*.egg-info
+.DS_Store

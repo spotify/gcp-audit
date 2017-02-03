@@ -1,0 +1,19 @@
+{
+    "name": "Traffic allowed from all IP's to multiple ports (range variant)",
+    "filters": [
+        {
+            "matchtype": "regex",
+            "filter": {
+                "sourceRanges": [
+                    "0.0.0.0/0"
+                ],
+                "allowed": [
+                    {
+                        "IPProtocol": "tcp|udp",
+                        "ports": "\\d+-\\d+"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Traffic allowed from all IP's to MySQL port",
+    "filters": [
+        {
+            "matchtype": "exact",
+            "filter": {
+                "sourceRanges": "0.0.0.0/0",
+                "allowed": [
+                    {
+                        "IPProtocol": "tcp",
+                        "ports": "3306"
+                    }
+                ]
+            }
+        }
+    ]
+}

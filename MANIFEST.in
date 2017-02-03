@@ -1,0 +1,5 @@
+recursive-include gcp_audit/rules *
+include README.md
+include LICENSE
+include NOTICE
+include CONTRIBUTORS

@@ -1,0 +1,12 @@
+{
+    "name": "World writable bucket",
+    "filters": [
+        {
+            "matchtype": "regex",
+            "filter": {
+                "entity": "allUsers",
+                "role": "OWNER|EDITOR"
+            }
+        }
+    ]
+}

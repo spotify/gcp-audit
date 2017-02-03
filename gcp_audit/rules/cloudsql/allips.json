@@ -1,0 +1,19 @@
+{
+    "name": "Traffic allowed from all IP's to CloudSQL instance",
+    "filters": [
+        {
+            "matchtype": "exact",
+            "filter": {
+                "settings": {
+                    "ipConfiguration": {
+                        "authorizedNetworks": [
+                            {
+                                "value": "0.0.0.0/0"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
