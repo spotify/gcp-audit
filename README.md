@@ -1,5 +1,9 @@
 # gcp-audit
 
+**This code purely exists for posterity, it is no longer developed or maintained. Please look to [Forseti Security](https://forsetisecurity.org/) for your GCP auditing needs. The PyPi package gcp-audit is not the same thing.**
+
+---
+
 A tool for auditing security properties of GCP projects. Inspired by [Scout2].
 
 `gcp-audit` takes a set of projects and audits them for common issues as defined by its ruleset. Issues
